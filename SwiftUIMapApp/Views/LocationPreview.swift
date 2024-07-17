@@ -85,7 +85,7 @@ extension LocationPreview {
     private var learnMoreButton : some View {
         VStack(spacing: 8) {
             Button(action: {
-                
+                vm.sheetLocation = location
             }, label: {
                 Text("Learn More")
                     .font(.headline)
